@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('Company');
             $table->string('Departure_station');
             $table->string('Arrival_station');
-            $table->string('Departure_time');
-            $table->string('Arrival_tIme');
-            $table->integer('Train_code');
+            $table->time('Departure_time');
+            $table->time('Arrival_tIme');
+            $table->string('Train_code');
             $table->tinyInteger('Carriagers');
             $table->boolean('In_time')->nullable();
             $table->boolean('Deleted')->nullable();

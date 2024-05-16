@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [TrainController::class, 'home']);
+Route::get('/', [TrainController::class, 'index']);
